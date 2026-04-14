@@ -1,0 +1,118 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---- f1 ---- */
+.f1 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  border-bottom: 2px solid black;
+}
+
+.f1 .left {
+  flex-direction: column;
+  padding: 20px;
+}
+
+.f1 .left p {
+  max-width: 600px;
+  font-size: 20px;
+  margin: 15px;
+}
+
+.f1 .left img {
+  max-width: 300px;
+}
+
+.f1 .left a {
+  text-decoration: none;
+}
+
+.f1 .left button {
+  padding: 10px 50px;
+  border: 2.5px solid #1a2a4a;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #1a2a4a;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition:
+    background 0.2s,
+    color 0.2s;
+  margin-left: 15px;
+}
+
+.f1 .left button:hover {
+  background-color: #1a2a4a;
+  color: #fff;
+}
+
+.f1 .right img {
+  max-width: 500px;
+}
+
+/* ---- f2 ---- */
+.f2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.f2 .ques {
+  width: 100%;
+  max-width: 900px;
+}
+
+.f2 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.f2 p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 450;
+  background-color: #1a2a4a;
+  margin: 20px;
+  padding: 7px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+/* ---- f3 & f4 ---- */
+.f3,
+.f4 {
+  border-bottom: 2px solid black;
+}
+
+.f3 h2,
+.f4 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
