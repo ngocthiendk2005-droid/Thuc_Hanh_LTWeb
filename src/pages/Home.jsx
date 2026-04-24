@@ -12,7 +12,7 @@ function Home() {
       <Navbar />
 
       <div className="main-content">
-        <div className="content-wrapper">
+        <div className="content-wrapper-home">
           {/* Section 1 — Giới thiệu */}
           <div className="f1">
             <div className="left">
